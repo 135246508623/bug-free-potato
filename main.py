@@ -2,7 +2,7 @@ from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-@register("getkey", "YourName", "Delta 卡密获取插件", "1.0.0")
+@register("getkey", "阿玛特拉斯", "Delta 卡密获取插件", "1.0.0")
 class GetKeyPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
